@@ -12,12 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
+$(call inherit-product, device/xiaomi/kenzo/bliss_kenzo.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_kenzo
+PRODUCT_NAME := bliss_kenzo
 BOARD_VENDOR := xiaomi
 TARGET_VENDOR := xiaomi
 PRODUCT_DEVICE := kenzo
